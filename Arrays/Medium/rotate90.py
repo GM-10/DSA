@@ -1,4 +1,6 @@
+
 def main():
+    
     n, m = map(int, input().split())
     matrix = [list(map(int, input().split())) for _ in range(n)]
     print(matrix)
@@ -9,4 +11,5 @@ def main():
     print(matrix)
 
 if __name__ == "__main__":
+    import numpy as np
     main()
