@@ -26,7 +26,7 @@ def main():
         else:
             low=mid+1
     print("Ceiling is ",ceiling)
-
+    print("The number if occurencs is :", ceiling-floor+1)
 
 if __name__ == "__main__":
     main()
